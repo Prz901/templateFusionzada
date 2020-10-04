@@ -1,0 +1,70 @@
+/* .unlocked{
+  display: none;
+}
+
+.locked :hover{
+  display: none;
+  color: red;
+}
+
+.unlocked :hover::before{
+  display: inline-block;
+} */
+
+.par {
+  font-family: ParisParisienneien;
+}
+
+.animate-border::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width 0.4s;
+}
+
+.animate-border:hover::after {
+  width: 98%;
+  transition: width 0.3s;
+}
+
+.background-home {
+  background: #12141c;
+}
+
+.images {
+  width: 4%;
+}
+
+.text-color-span {
+  color: #d0bb79;
+}
+
+.text-color-p {
+  color: #999;
+}
+
+.border-cv {
+  border: 1px solid #d0bb79;
+  background: #d0bb79;
+}
+
+.border-hire {
+  border: 1px solid #d0bb79;
+}
+
+.border-hire:hover {
+  background: #d0bb79;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  /* width: 0px;
+  background: transparent; make scrollbar transparent */
+  display: none;
+}
